@@ -1,0 +1,83 @@
+.title{
+    padding: 30px;
+    text-align: center;
+    font-size: 50 px;
+}
+
+.title span{
+    color: #00BFA6;
+    font-size: 20px;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+}
+.main img{
+    max-height: 300px;
+}
+
+.main-info {
+    max-width: 500px;
+}
+
+.main-info ul{
+    padding-left: 17px;
+}
+
+.main-info a{
+    font-size: 20px;
+    color: #00BFA6;
+}
+
+.form{
+    max-width: 420px;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form h2 {
+    text-align: center;
+    font-size: 35px;
+}
+
+.form input {
+    padding: 10px;
+    font-size: 23px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    border: 2px solid rgb(175,171,171);
+}
+
+.form button{
+    background: #00BFA6;
+    color: aliceblue;
+    padding: 16 px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: 0px;
+}
+
+
+
+.form button:hover{
+    background: white;
+    color: black;
+    border: #00BFA6 3px solid;
+    scale: 1.1
+}
+
+.beauty-rotate {
+    width: 300px;
+    height: 300px;
+    border: 4px double #00BFA6; /* Рамка */
+    overflow: hidden;
+    -webkit-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+  } 
+  .beauty-rotate:hover {
+    border-radius: 50%;
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
